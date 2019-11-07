@@ -37,7 +37,7 @@ public class dresspagesteps {
 	@Then("^the product should added to cart page$")
 	public void the_product_should_added_to_cart_page() throws Throwable {
 		Assert.assertTrue("Failed: Not added",dp.verifyCheckoutButton());
-		basepage.driver.navigate().refresh();	
+		basepage.driver.navigate().refresh();	bala
 		
 	}
 
